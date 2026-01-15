@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Siboniso Mabaso | My Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Raleway:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">Portfolio<span>.</span></a>
+            <div class="nav-toggle" id="navToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#certificates">Certificates</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <h3 class="subtitle">Hello, I'm</h3>
+                <h1 class="title">Siboniso Mabaso</h1>
+                <h2 class="role">IT Specialist & Developer</h2>
+                <p class="description">I create technical solutions with a focus on cloud computing, networking, and full-stack development.</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn primary">View Projects</a>
+                    <a href="#contact" class="btn secondary">Contact Me</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="image-wrapper">
+                    <!-- Replace with your actual image in the images folder -->
+                    <img src="images/profile.jpg" alt="Siboniso Mabaso" onerror="this.src='https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80'">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <!-- Replace with your actual image in the images folder -->
+                    <img src="images/working.jpg" alt="Siboniso Working" onerror="this.src='https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80'">
+                </div>
+                <div class="about-text">
+                    <h3>IT Specialist & Technical Problem Solver</h3>
+                    <p>I'm an IT professional with expertise in cloud computing, networking, and full-stack development. I enjoy creating efficient solutions and solving complex technical challenges.</p>
+                    <div class="about-info">
+                        <div class="info-item">
+                            <span class="label">Name:</span>
+                            <span class="value">Siboniso Mabaso</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="label">Email:</span>
+                            <span class="value">sibomabaso15@gmail.com</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="label">Location:</span>
+                            <span class="value">Johannesburg, South Africa</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="label">Available:</span>
+                            <span class="value">Open to opportunities</span>
+                        </div>
+                    </div>
+                    <a href="downloads/Siboniso Mabaso cv.pdf" class="btn primary" download>Download My CV</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+        <div class="container">
+            <h2 class="section-title">My Skills</h2>
+            <div class="skills-grid">
+                <!-- Programming Languages -->
+                <div class="skill-category">
+                    <div class="skill-category-header">
+                        <i class="fas fa-code"></i>
+                        <h3>Programming Languages</h3>
+                    </div>
+                    <div class="skill-items">
+                        <div class="skill">
+                            <span class="skill-name">Java</span>
+                        </div>
+                        <div class="skill">
+                            <span class="skill-name">Python</span>
+                        </div>
+                        <div class="skill">
+                            <span class="skill-name">VB.NET</span>
+                        </div>
+                        <div class="skill">
+                            <span class="skill-name">PHP</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Web Development -->
+                <div class="skill-category">
+                    <div class="skill-category-header">
+                        <i class="fas fa-laptop-code"></i>
+                        <h3>Web Development</h3>
+                    </div>
+                    <div class="skill-items">
+                        <div class="skill">
+                            <span class="skill-name">HTML5</span>
+                        </div>
+                        <div class="skill">
+                            <span class="skill-name">CSS3</span>
+                        </div>
+                        <div class="skill">
+                            <span class="skill-name">JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Database Management -->
+                <div class="skill-category">
+                    <div class="skill-category-header">
+                        <i class="fas fa-database"></i>
+                        <h3>Database Management</h3>
+                    </div>
+                    <div class="skill-items">
+                        <div class="skill">
+                            <span class="skill-name">Oracle</span>
+                        </div>
+                        <div class="skill">
+                            <span class="skill-name">MySQL</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Cloud Computing -->
+                <div class="skill-category">
+                    <div class="skill-category-header">
+                        <i class="fas fa-cloud"></i>
+                        <h3>Cloud Computing</h3>
+                    </div>
+                    <div class="skill-items">
+                        <div class="skill">
+                            <span class="skill-name">Microsoft Azure</span>
+                        </div>
+                        <div class="skill">
+                            <span class="skill-name">Oracle Cloud</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Networking -->
+                <div class="skill-category">
+                    <div class="skill-category-header">
+                        <i class="fas fa-network-wired"></i>
+                        <h3>Networking</h3>
+                    </div>
+                    <div class="skill-items">
+                        <div class="skill">
+                            <span class="skill-name">CCNA</span>
+                        </div>
+                        <div class="skill">
+                            <span class="skill-name">Switching</span>
+                        </div>
+                        <div class="skill">
+                            <span class="skill-name">Routing</span>
+                        </div>
+                        <div class="skill">
+                            <span class="skill-name">Wireless Networks</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Microsoft 365 -->
+                <div class="skill-category">
+                    <div class="skill-category-header">
+                        <i class="fas fa-file-excel"></i>
+                        <h3>Microsoft 365</h3>
+                    </div>
+                    <div class="skill-items">
+                        <div class="skill">
+                            <span class="skill-name">Excel</span>
+                        </div>
+                        <div class="skill">
+                            <span class="skill-name">PowerPoint</span>
+                        </div>
+                        <div class="skill">
+                            <span class="skill-name">Word</span>
+                        </div>
+                        <div class="skill">
+                            <span class="skill-name">Teams & Outlook</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Certificates Section -->
+    <section class="certificates" id="certificates">
+        <div class="container">
+            <h2 class="section-title">My Certifications</h2>
+            <div class="certificates-grid">
+                <!-- CCNA Certificate -->
+                <div class="certificate-card">
+                    <div class="certificate-image">
+                        <i class="fas fa-network-wired"></i>
+                    </div>
+                    <div class="certificate-content">
+                        <span class="certificate-badge">Networking</span>
+                        <h3>Cisco Certified Network Associate</h3>
+                        <p class="certificate-issuer">Cisco Systems</p>
+                        <p class="certificate-date">Issued: 2023</p>
+                        <p>Comprehensive networking certification covering switching, routing, and wireless essentials.</p>
+                        <div class="certificate-links">
+                            <a href="certificates/CCNA_Certificate.pdf" class="btn small" download>
+                                <i class="fas fa-download"></i> Download
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Oracle Cloud Certificate -->
+                <div class="certificate-card">
+                    <div class="certificate-image">
+                        <i class="fas fa-cloud"></i>
+                    </div>
+                    <div class="certificate-content">
+                        <span class="certificate-badge">Cloud</span>
+                        <h3>Oracle Cloud Infrastructure 2025 Certified Generative AI Professional certification</h3>
+                        <p class="certificate-issuer">Oracle</p>
+                        <p class="certificate-date">Issued: 2025</p>
+                        <p>Understanding models like GPT, diffusion models, and their applications.</p>
+                        <div class="certificate-links">
+                            <a href="certificates/Cloud.pdf" class="btn small" download>
+                                <i class="fas fa-download"></i> Download
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+        <div class="container">
+            <h2 class="section-title">My Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1551650975-87deedd944c3?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Cloud Infrastructure Project">
+                    </div>
+                    <div class="project-content">
+                        <h3>Cloud Infrastructure Setup</h3>
+                        <p>Designed and implemented a secure cloud infrastructure using Microsoft Azure with automated deployment.</p>
+                        <div class="project-tech">
+                            <span>Azure</span>
+                            <span>Oracle Cloud</span>
+                            <span>Networking</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn small">Case Study</a>
+                            <a href="#" class="btn small secondary">Details</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Database Management System">
+                    </div>
+                    <div class="project-content">
+                        <h3>Database Management System</h3>
+                        <p>Developed a comprehensive database system with Oracle and MySQL for enterprise data management.</p>
+                        <div class="project-tech">
+                            <span>Oracle</span>
+                            <span>MySQL</span>
+                            <span>PHP</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn small">View Project</a>
+                            <a href="#" class="btn small secondary">Code</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Network Security">
+                    </div>
+                    <div class="project-content">
+                        <h3>Network Security Implementation</h3>
+                        <p>Implemented secure network infrastructure with switching, routing, and wireless security protocols.</p>
+                        <div class="project-tech">
+                            <span>CCNA</span>
+                            <span>Security</span>
+                            <span>Wireless</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn small">Case Study</a>
+                            <a href="#" class="btn small secondary">Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Contact Information</h3>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>sibomabaso15@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>+27 78 694 9860</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Location</h4>
+                            <p>Johannesburg, South Africa</p>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://github.com/Ogmane007" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/siboniso-mabaso-it" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com/ghost__nutty" target="_blank"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" placeholder="Subject" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Your Message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; <span id="currentYear"></span> Siboniso Mabaso. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
